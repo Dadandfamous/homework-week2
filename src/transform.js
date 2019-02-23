@@ -17,14 +17,9 @@ const adults50 = people
 .filter(people => people.age > 50 && people.length !==  0);
   
 
-  // pushing the adult classes into a result with the corresponding text
-  // I wanted to push the data of the adultgroups + text to the result, not sure how
-
-  // const grouped18 = groupBy(adults18, people => people.age);
-  // const grouped20 = groupBy(adults18, people => people.age);
-  // const grouped30 = groupBy(adults18, people => people.age);
-  // const grouped40 = groupBy(adults18, people => people.age);
-  // const grouped50 = groupBy(adults18, people => people.age);
+  // pushing the adult classes into a result with the corresponding text.
+  // I wanted to push the data of the adultgroups + text to the result, not sure how.
+  // Tried a lot of things.
 
 }
   return result
