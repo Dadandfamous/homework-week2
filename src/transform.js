@@ -1,14 +1,10 @@
 function groupAdultsByAgeRange (people) {
-  
-  // final return of the data transformation:
   const result = { }
   
   // only run the transformation if length of the array is not zero.
   // sadly I didnt get this part to work properly
   if (people.length !== 0) {
 
-
-  // filtering the people, into separate adult classes
 const adults18 = people
 .filter(people => people.age > 18 && people.age <= 20 && people.length !== 0);
 const adults20 = people
